@@ -1,0 +1,40 @@
+.label {
+    -fx-text-fill: #4A4A4A;
+    -fx-font-size: 18px;
+}
+
+.parent {
+    -fx-background-color: #EFF2F5;
+}
+
+.title {
+    -fx-font-size: 24px;
+}
+
+.info {
+    -fx-text-fill: #A1A1A1;
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+}
+
+.button {
+-fx-background-color: linear-gradient(#F2F2F2, #D4D4D4);
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: #4A4A4A;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 14px;
+    -fx-padding: 5 15 5 15;
+
+}
+
+.button:hover {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.9) , 5, 0.0 , 0 , 1 );
+}
+
+.button:pressed {
+    -fx-background-color: #e0eafc;
+}
