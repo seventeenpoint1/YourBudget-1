@@ -23,6 +23,7 @@ public class CreateAccountController {
 
     @FXML
     private void createAccount(ActionEvent event) {
+        // Code for Phase 2
 //        String name = firstName.getText();
 //        String user = username.getText();
 //        String pass = password.getText();
@@ -39,5 +40,12 @@ public class CreateAccountController {
         appStage.show();
     }
 
+    //TODO(2) Complete the isNameValid method
+    // Method should ensure that the name contains no special characters, numbers, or spaces.
+    // If the name is valid (contains no special characters, etc.) return true, otherwise
+    // return false
+    private boolean isNameValid(String name) {
+        return false;
+    }
 
 }
