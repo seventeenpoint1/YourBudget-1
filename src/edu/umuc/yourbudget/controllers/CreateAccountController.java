@@ -48,4 +48,11 @@ public class CreateAccountController {
         return false;
     }
 
+    //TODO(3) Complete the isUsernameValid method
+    // Method should ensure that the username contains only letters and numbers
+    // and is 15 characters or less. If the username is not valid, return false
+    private boolean isUsernameValid(String username) {
+        return false;
+    }
+
 }
