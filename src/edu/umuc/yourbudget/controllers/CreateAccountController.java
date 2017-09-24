@@ -58,10 +58,12 @@ public class CreateAccountController {
     // and is 15 characters or less. If the username is not valid, return false
     private boolean isUsernameValid(String username)
     {
-        if(username.matches("[a-zA-Z]+$"))
+        if(username.matches("[a-zA-Z]+$") && username.length() <= 15)
             return true;
+
         else
-        return false;
+            return false;
+
     }
 
 }
